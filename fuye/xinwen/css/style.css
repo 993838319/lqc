@@ -1,0 +1,527 @@
+/*头部*/
+header{
+	width: 100%;
+	height: 62px;
+	background: #020202;
+	position: fixed;
+	box-shadow: 0 10px 30px -12px #000;
+	z-index: 1;
+}
+/*头部logo*/
+.head1{
+	width: 64%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.head1>a{
+	display: inline-block;
+	width: 19%;
+	height: 100%;
+	background: url(../img/vrview.png) no-repeat center;
+	background-size: 80%;
+	float: left;
+}
+/*头部导航*/
+.head2{
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+.head2>ul{
+	width: 100%;
+	height: 100%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.head2>ul>li{
+	width: 14%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	line-height: 58px;	
+}
+.head2>ul>li>a{
+	color: #999;
+	font-size: 14px;
+}
+.head2>ul span{
+	width: 8px;
+	height: 8px;
+	border: 1px solid #999;
+	border-left: solid transparent;
+	border-top: solid transparent;
+	display: inline-block;
+	transform: rotateZ(44deg);
+	position: relative;
+	left: 4px;
+	top: -3px;
+}
+.head2>ul>li:hover{
+	background: #312D2D;
+}
+/*导航下拉菜单部分*/
+.cd_1{
+	width: 100px;
+	height: 15px;
+}
+.cd-1{
+	width: 0px;
+	height: 0px;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-bottom: 10px solid #1D1D1D;
+	margin-left: 10px;
+	margin-top: 4px;
+	display: none;
+}
+.cd1{
+	width: 238px;
+	height: 187px;
+	background: #1D1D1D;
+	position: relative;
+	display: none;
+	margin-top: -5px;
+}
+.cd1>ul{
+	width: 80%;
+	height: 100%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.cd1>ul>li{
+	width: 100%;
+	height:40px;
+	line-height: 40px;
+	text-align:left;
+	font-size: 14px;
+}
+.cd1>ul>.hr1{
+	border-bottom: 1px solid #fff;
+}
+.cd1 a{
+	color: #999;
+	
+}
+.cd1 a:hover{
+	color: #fff;
+}
+
+.cd2:hover .cd1{
+	display: block;
+}
+.cd2:hover .cd-1{
+	display: block;
+}
+.cd3:hover .cd-1{
+	display: block;
+}
+.cd4:hover .cd-1{
+	display: block;
+}
+.cd5:hover .cd-1{
+	display: block;
+}
+.cd3 .cd1{
+	width: 200px;
+	height: 140px;
+}
+.cd3:hover .cd1{
+	display: block;
+}
+.cd4 .cd1{
+	width: 120px;
+	height: 180px;
+}
+.cd4:hover .cd1{
+	display: block;
+}
+.cd5 .cd1{
+	width: 100px;
+	height: 100px;
+}
+.cd5:hover .cd1{
+	display: block;
+}
+/*头部右边图标及二维码*/
+.head3{
+	width: 11%;
+	height: 100%;
+	float: right;
+	padding-top: 19px;
+}
+.head3>a{
+	width: 24px;
+	height: 24px;
+	background: url(../img/icon_set.png) -33px 3px;
+	line-height: 62px;
+	float: right;
+	margin-right: 20px;
+}
+.head_4{
+	width: 0px;
+	height: 0px;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-bottom: 10px solid #020202;
+	position: relative;
+	left: 6px;
+	top: 44px;
+	display: none;
+}
+.head-4{
+	width: 95px;
+	height: 95px;
+	background: #020202;
+	display: none;
+	position: relative;
+	left: -6px;
+	top: 41px;
+
+}
+.head4{
+	width: 85px;
+	height: 85px;
+	background: url(../img/erweima.jpg);
+	position: relative;
+	left: 5px;
+	top: 5px;
+	display: none;
+}
+.head3>a:hover .head4{
+	display: block;
+}
+.head3>a:hover .head-4{
+	display: block;
+}
+.head3>a:hover .head_4{
+	display: block;
+}
+/*第一行内容*/
+.one1{
+	width: 100%;
+	height: 280px;
+	padding-top: 100px;
+	background: url(../img/news_top.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.one1 .p1{
+	height: 65px;
+	font-size: 32px;
+	line-height: 65px;
+	text-align: center;
+	color: #fff;
+}
+.p2{
+	height: 9px;
+}
+.p2 i{
+	width: 40px;
+	height: 2px;
+	background:#009cff;
+	display: block;
+	margin: 0px auto;
+}
+.p3{
+	height: 33px;
+	font-size: 17px;
+	color: #fff;
+	line-height: 33px;
+	text-align: center;
+}
+/*第二行内容智慧交通*/
+.two{
+	width: 1200px;
+	margin: 0px auto;
+	margin-top: 35px;
+	margin-bottom: 128px;
+}
+.two ul{
+	width: 230px;
+	height: 252px;
+	float: left;
+}
+.two ul li{
+	width: 100%;
+	height: 63px;
+	text-align: center;
+	line-height: 63px;
+}
+.two ul li a{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	color: #666;
+}
+.two ul a li:hover{
+	background: #f2f0f0;
+	color: #009cff;
+}
+.two1{
+	width: 880px;
+	margin-left: 320px;
+}
+.two1 h1{
+	width: 100%;
+	height: 63px;
+	font-size: 30px;
+	font-weight: 100;
+	line-height: 63px;
+}
+.two2{
+	width: 100%;
+}
+#pag1{
+	height: 93%;
+}
+#pag2{
+	height: 78%;
+}
+#pag3{
+	height: 78%;
+}
+#pag4{
+	height: 31%;
+}
+.two2 dl{
+	width: 100%;
+	height: 143px;
+	padding: 25px 25px 25px 0px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.two2 dl dt{
+	width: 132px;
+	height: 100%;
+	float: left;
+}
+.dt-1{
+	background: url(../img/thumb_132_92_20180116040059677.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.dt-2{
+	background: url(../img/thumb_132_92_20171117042533805.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.dt-3{
+	background: url(../img/thumb_132_92_20171017042022107.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.dt-4{
+	background: url(../img/thumb_132_92_20170926112701619.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.dt-5{
+	background: url(../img/thumb_132_92_20170729051222286.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.dt-6{
+	background: url(../img/thumb_132_92_20170706042958367.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.two2 dl dd{
+	width: 100%;
+	height: 100%;
+	padding-left: 150px;
+}
+.two2 dl dd h1{
+	width: 100%;
+	height: 30px;
+	line-height: 18px;
+}
+.two2 dl dd h1 a{
+	color: #333;
+	font-weight: 600;
+	font-size: 17px;
+}
+.two2 dl dd h1 a:hover{
+	color: #009CFF;
+}
+.two2 dl dd p{
+	width: 100%;
+	height: 40px;
+	padding: 2px 0px;
+	line-height: 18px;
+	color: #666;
+	font-size: 12px;
+}
+
+.two1{
+	display: none;
+}
+/*尾部*/
+.footer{
+	width: 100%;
+	height: 323px;
+}
+.footer1{
+	width: 100%;
+	height: 253px;
+	background: #282828;
+}
+.footer2{
+	width: 1200px;
+	height: 100%;
+	margin: 0px auto;
+}
+.footer3{
+	width: 100%;
+	height: 199px;
+	padding-top: 36px;
+	padding-bottom: 20px;
+}
+/*尾部第一层左半边列表*/
+.footer4{
+	width: 910px;
+	height: 130px;
+	float: left;
+}
+.footer4 dl{
+	width: 162px;
+	height: 130px;
+	float: left;
+	padding-left: 10px;
+}
+.footer4 dl dt{
+	height: 16px;
+	font-size: 18px;
+	border-left: 1px solid #2751BD;
+	padding-left: 9px;
+	line-height: 16px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.footer4 dl dd{
+	height: 26px;
+	padding-left: 9px;
+	line-height: 26px;
+	font-size: 12px;
+}.footer4 dl dd a{
+	color: #999;
+}
+.footer4 dl dd a:hover{
+	color: #fff;
+}
+/*尾部第一层右半边二维码*/
+.footer5{
+	width: 180px;
+	height: 143px;
+	float: right;
+}
+.footer6{
+	width: 100%;
+	height: 91px;
+}
+.footer6 p{
+	width: 85px;
+	height: 85px;
+	margin: 0px auto;
+	background: url(../img/erweima.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.footer7{
+	width: 100%;
+	height: 32px;
+	font-size: 12px;
+	color: #999;
+	text-align: center;
+	line-height: 32px;
+}
+.footer8{
+	width: 100%;
+	height: 20px;
+}
+.a1{
+	width: 90px;
+	height: 17px;
+}
+.a1 p{
+	font-size: 12px;
+	color: #999;
+	display: inline-block;
+	vertical-align: middle;
+}
+.span_1{
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	border-radius: 2px;
+	margin-right: 5px;
+	vertical-align: middle;
+	background: #fff url(../img/weibo_icon.png) 0px 0px;
+}
+.a2{
+	width: 90px;
+	height: 100%;
+	float: right;
+}
+.a2 p{
+	font-size: 12px;
+	color: #999;
+	display: inline-block;
+	vertical-align: middle;
+}
+.span_2{
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	border-radius: 2px;
+	margin-right: 5px;
+	vertical-align: middle;
+	background: #fff url(../img/weibo_icon.png) 23px 4px;
+}
+.a1:hover .span_1{
+	background: #fff url(../img/weibo_icon.png) 1px 20px;
+}
+.a1:hover p{
+	color: #fff;
+}
+.a2:hover .span_2{
+	background: #fff url(../img/weibo_icon.png) 24px 24px;
+}
+.a2:hover p{
+	color: #fff;
+}
+.footer9{
+	width: 100%;
+	height: 54px;
+	border-top: 1px solid #464646 ;
+}
+.footer9 a{
+	width: 48px;
+	height: 52px;
+	line-height: 52px;
+	color: #fff;
+	font-size: 12px;
+}
+.footer9 span{
+	width: 39px;
+	height: 52px;
+	display: inline-block;
+	line-height: 52px;
+	color: #fff;
+	padding-left: 18px;
+	padding-right: 18px;
+	font-size: 12px;
+}
+/*尾部最后*/
+.footer10{
+	width: 100%;
+	height: 70px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: #181818;
+}
+.footer11{
+	width: 1200px;
+	height: 100%;
+	margin: 0px auto;
+}
+.footer11 p{
+	width: 100%;
+	height: 20px;
+	color: #999;
+	line-height: 20px;
+	font-size: 12px;
+}

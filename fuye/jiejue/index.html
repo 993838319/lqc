@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>解决方案</title>
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+		*{margin: 0px;padding: 0px;}
+		li{list-style: none}
+		a{text-decoration:none}
+		*{box-sizing: border-box;}
+	</style>
+	<!-- 点击效果 -->
+
+	<script>
+		var pages = document.getElementsByClassName("page")
+		var diva = document.getElementsByClassName("two1")
+		function shijian(num){
+			for(var i = 0; i< diva.length; i++){
+				if(pages[i] == document.getElementById("ii"+num)){
+					diva[i].style.display = "block";
+					pages[i].style.background = "#f2f0f0";
+					pages[i].style.color = "#009cff";
+				} else {
+					diva[i].style.display = "none";
+					pages[i].style.background = "#fff";
+					pages[i].style.color = "#666";
+				}
+			}
+		}
+	</script>
+</head>
+<body>
+	<header>
+		<!-- 头部logo -->
+		<div class="head1">
+			<a href="" title="合肥寰景信息科技有限公司"></a>
+			<!-- 头部导航 -->
+			<div class="head2">
+				<ul>
+					<li><a href="../../../huanjing/index.html">寰景首页</a></li>
+					<li class="cd2">
+						<a href="">核心技术<span></span></a>
+						<!-- 导航下拉菜单 -->
+						<div class="cd_1"><p class="cd-1"></p></div>
+						<div class="cd1">
+							<ul>
+								<li class="hr1"><a href="../jingxi/index.html">车辆精细化识别</a></li>
+								<li class="hr1"><a href="../xingren/index.html">行人属性识别</a></li>
+								<li class="hr1"><a href="../jiyu/index.html">基于深度学习的视频数据处理</a></li>
+								<li><a href="../shipin/index.html">视频浓缩摘要与检索</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="cd3">
+						<a href="">产品及服务<span></span></a>
+						<!-- 导航下拉菜单 -->
+						<div class="cd_1"><p class="cd-1"></p></div>
+						<div class="cd1">
+							<ul>
+								<li class="hr1"><a href="../yigou/index.html">导购分布式视频平台</a></li>
+								<li class="hr1"><a href="../zhineng/index.html">智能交通大数据分析平台</a></li>
+								<li><a href="../xuni/index.html">虚拟卡口系统</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="cd4">
+						<a href="../jiejue/index.html">解决方案<span></span></a>
+						<!-- 导航下拉菜单 -->
+						<div class="cd_1"><p class="cd-1"></p></div>
+						<div class="cd1">
+							<ul>
+								<li class="hr1"><a href="../jiejue/index.html">智慧交通</a></li>
+								<li class="hr1"><a href="../jiejue/index.html">智慧银行</a></li>
+								<li class="hr1"><a href="../jiejue/index.html">公共安全</a></li>
+								<li><a href="">行业信息化</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="cd5">
+						<a href="../xinwen/index.html">新闻动态<span></span></a>
+						<!-- 导航下拉菜单 -->
+						<div class="cd_1"><p class="cd-1"></p></div>
+						<div class="cd1">
+							<ul>
+								<li class="hr1"><a href="../xinwen/index.html">寰景动态</a></li>
+								<li><a href="../xinwen/index.html">行业资讯</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="">关于寰景</a></li>
+					<li><a href="">加入我们</a></li>
+				</ul>
+			</div>
+			<!-- 头部右边图标及二维码 -->
+			<div class="head3">
+				<a href="">
+					<p class="head_4"></p>
+					<div class="head-4"><div class="head4"></div></div>
+				</a>
+			</div>
+		</div>
+	</header>
+	<!-- 第一行内容 -->
+	<div class="one1">
+		<p class="p1">解决方案</p>
+		<p class="p2"><i></i></p>
+		<p class="p3">Solutions</p>
+	</div>
+	<!-- 第二行内容智慧交通 -->
+	<div class="two">
+		<ul>
+			<li><a href="javascript:;" class="page" id="ii1" onclick="shijian(1)" style="color: #009cff;background: #f2f0f0">智慧交通</a></li>
+			<li><a href="javascript:;" class="page" id="ii2" onclick="shijian(2)">智慧银行</a></li>
+			<li><a href="javascript:;" class="page" id="ii3" onclick="shijian(3)">公共安全</a></li>
+			<li><a href="javascript:;" class="page" id="ii4" onclick="shijian(4)">行业信息化</a></li>
+		</ul>
+		<div class="two1" style="display: block;">
+			<h1>智慧交通</h1>
+			<div class="two2" id="pag1">
+				<dl>
+					<dt class="dt-1"></dt>
+					<dd>
+						<h1><a href="">特殊车辆检测系统</a></h1>
+						<p>违法停车检测系统，采用智能视频监控系统对指定区域内的违法停车行为进行不间断自动检查记录，运用目标跟踪与分类检索技术，追踪车辆</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt class="dt-2"></dt>
+					<dd>
+						<h1><a href="">虚拟卡口系统</a></h1>
+						<p>违法停车检测系统，采用智能视频监控系统对指定区域内的违法停车行为进行不间断自动检查记录，运用目标跟踪与分类检索技术，追踪车辆</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt class="dt-3"></dt>
+					<dd>
+						<h1><a href="">高速车辆智能分析系统</a></h1>
+						<p>收集与分析高速公路车辆各种属性和动态信息数据，建立车辆信息库。</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt class="dt-4"></dt>
+					<dd>
+						<h1><a href="">高速偷逃费治理平台</a></h1>
+						<p>通过车辆精细化识别技术确定每辆车的行驶轨迹，结合服务区卡口数据、收费站交易信息以及MTC和ETC信息， 进行大数据分析，甄别出偷逃费车辆。</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt class="dt-5"></dt>
+					<dd>
+						<h1><a href="">服务区智能分析系统</a></h1>
+						<p>通过服务区卡口摄像机，对进出服务区车辆类型特征，驾车员特征等进行采集。</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt class="dt-6"></dt>
+					<dd>
+						<h1><a href="">高速交通调查系统</a></h1>
+						<p>通过视频监控系统，充分利用采集到的收费站、交通路段和重要场所的信息，获得最优化的交通控制解决方案，为合理调配警力，更好地解决交通</p>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<!-- 第二行内容智慧银行 -->
+		<div class="two1">
+			<h1>智慧银行</h1>
+			<div class="two2" id="pag2">
+				<dl>
+					<dt class="dt-1"></dt>
+					<dd>
+						<h1><a href="">智慧银行</a></h1>
+						<p>寰景智能化银行安防监控系统是通过计算机视觉技术对监控场景的视频图像内容进行分析，提取场景中的关键信息，对相 应事件进行告警，是新一代基于视频内容分析的监控系统。</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt class="dt-2"></dt>
+					<dd>
+						<h1><a href="">营业大厅</a></h1>
+						<p>在客户进入银行大门之前，通过银行的人脸VIP识别系统，准确的识别银行VIP客户的身份，通过调取银行VIP客户的以往兴趣爱好、消费习惯，</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt class="dt-3"></dt>
+					<dd>
+						<h1><a href="">视频质量诊断系统</a></h1>
+						<p>自动检测加入系统监控设备状态、判断是否录像、录像是否丢失等。</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt class="dt-4"></dt>
+					<dd>
+						<h1><a href="">金库监控</a></h1>
+						<p>通过金库中的摄像头对工作区域的员工是否在岗进行判断，当系统检测到某个岗位的员工无故脱岗达到设定的阀值时间，系统自动警告，系统在指挥中心报警，有效防止值班人员脱岗造成安全</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt class="dt-5"></dt>
+					<dd>
+						<h1><a href="">ATM自助银行智能监控系统</a></h1>
+						<p>在ATM取款机处安装人脸识别抓拍设备和监控摄像机，对取款人的人脸采取自动抓拍，并通过有限网络或无线网络（3G 4G），将抓拍到的人脸传输到监控中心。</p>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<!-- 第二行内容公共安全 -->
+		<div class="two1">
+			<h1>公共安全</h1>
+			<div class="two2" id="pag3">
+				<dl>
+					<dt class="dt-1"></dt>
+					<dd>
+						<h1><a href="">人证合一</a></h1>
+						<p>系统通过提取身份证内的信息与现场摄像头拍摄到的身份证持有者图像进行比对，快速的识别出证件与证件使用人是否相一致</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt class="dt-2"></dt>
+					<dd>
+						<h1><a href="">人、车目标定位</a></h1>
+						<p>系统支持根据目标类型（人或者车）、车身颜色、衣服颜色（上半身或下半身颜色）等结构化数据进行检索，支持白、黑、红、黄、绿等多种颜色的辨别，检索之后，会将匹配度高的目标优先显示</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt class="dt-3"></dt>
+					<dd>
+						<h1><a href="">枪球联动追踪</a></h1>
+						<p>高清枪机内置智能算法，负责全景监控和智能分析，高清球机负责特写追踪，这种方法兼顾了全景和特写，既“看”的远又“看”得清，保证追踪准确迅速，节省了成本，还简化了安装维护</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt class="dt-4"></dt>
+					<dd>
+						<h1><a href="">视频检索摘要</a></h1>
+						<p>寰景公安智能监控追踪系统从视频中提取活动目标，将重要信息浓缩为短视频，提高观看效率，对原始视频摘要处理同时生成目标快照，可对目标类型、大小、方向、颜色进行分类筛选</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt class="dt-5"></dt>
+					<dd>
+						<h1><a href="">高大空间火灾侦测系统</a></h1>
+						<p>核心技术与优势视频火灾探测技术基于普遍可见摄像头拍摄的视频火焰及烟雾探测，范围广、响应快、非接触式，光其适用于高大空间火灾探测</p>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<!-- 第二行内容行业信息化 -->
+		<div class="two1">
+			<h1>行业信息化</h1>
+			<div class="two2" id="pag4">
+				<dl>
+					<dt class="dt-1"></dt>
+					<dd>
+						<h1><a href="">智慧政务</a></h1>
+						<p>寰景智慧政务解决方案是一个集成的政府信息化管理工具，他从政府机构处理日常事务的QA系统和构建公共财务系统的角度出发、以通用化</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt class="dt-2"></dt>
+					<dd>
+						<h1><a href="">智慧办公平台</a></h1>
+						<p>寰景利用云计算技术打造出得智慧办公平台可实现对办公业务所需的软硬件设备智能化管理，智慧办公平台同时支持PC、手机、平板电脑等多</p>
+					</dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+	<!--尾部 -->
+	<div class="footer">
+		<div class="footer1">
+			<div class="footer2">
+				<div class="footer3">
+					<div class="footer4">
+						<dl>
+							<dt>核心技术</dt>
+							<dd><a href="">车辆精细化识别</a></dd>
+							<dd><a href="">行人属性识别</a></dd>
+							<dd><a href="">视频数据处理与内容分析</a></dd>
+							<dd><a href="">视频浓缩摘要与检索</a></dd>
+						</dl>
+						<dl>
+							<dt>产品及服务</dt>
+							<dd><a href="">异构分布式视频平台</a></dd>
+							<dd><a href="">智能交通大数据分析平台</a></dd>
+							<dd><a href="">虚拟卡口系统</a></dd>
+						</dl>
+						<dl>
+							<dt>解决方案</dt>
+							<dd><a href="">智慧交通</a></dd>
+							<dd><a href="">智慧银行</a></dd>
+							<dd><a href="">公共安全</a></dd>
+							<dd><a href="">行业信息化</a></dd>
+						</dl>
+						<dl>
+							<dt>加入我们</dt>
+							<dd><a href="">社会招聘</a></dd>
+							<dd><a href="">校园招聘</a></dd>
+							<dd><a href="">实习招聘</a></dd>
+						</dl>
+						<dl>
+							<dt>相关网站</dt>
+							<dd><a href="">寰智股份</a></dd>
+							<dd><a href="">梦工厂创业平台</a></dd>
+							<dd><a href="">芜湖创业大街</a></dd>
+						</dl>
+					</div>
+					<div class="footer5">
+						<div class="footer6"><p></p></div>
+						<div class="footer7">关注寰景信息</div>
+						<div class="footer8">
+							<a href="" class="a1"><span class="span_1"></span><p>新浪微博</p></a>
+							<a href="" class="a2"><span class="span_2"></span><p>腾讯微博</p></a>
+						</div>
+					</div>
+				</div>
+				<div class="footer9">
+					<a href="">网站首页</a>
+					<span>|</span>
+					<a href="">关于我们</a>
+					<span>|</span>
+					<a href="">加入我们</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer10">
+			<div class="footer11">
+				<p>?2016 VRVIEW 版权所有 寰景信息技术有限公司 皖ICP备14001780号</p>
+				<p>电话：+86-551-65319388；+86-551-65370504；传真：+86-551-65359164；地址：安徽省合肥市黄山路616号（230088）</p>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
